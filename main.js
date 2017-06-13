@@ -9,6 +9,7 @@ const moduleMap = {
   'expo': require('expo'),
   'react': require('react'),
   'react-native': require('react-native'),
+  'react-native-contacts-wrapper': require('react-native-contacts-wrapper'),
 };
 const oldRequire = require;
 global.require = (m) => moduleMap[m] || oldRequire(m);

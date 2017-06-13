@@ -13,9 +13,22 @@
     "hideExponentText": false
   },
   "packagerOpts": {
-    "assetExts": ["ttf", "mp4"]
+    "assetExts": [
+      "ttf",
+      "mp4"
+    ]
   },
   "ios": {
-    "supportsTablet": true
+    "supportsTablet": true,
+    "bundleIdentifier": "com.yay.bar"
+  },
+  "android": {
+    "package": "com.yay.bar"
+  },
+  "isDetached": true,
+  "detach": {
+    "scheme": "exp346a4434bc474d00a10c8ee449677b13",
+    "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v1.16.2-sdk17.0.0-b5bce87c-1a42-4b6d-888f-877f855c9680.tar.gz",
+    "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v1.16.1-sdk17.0.0-bf7bf150-6f10-4b8a-8906-a1fc69392aa4.tar.gz"
   }
 }

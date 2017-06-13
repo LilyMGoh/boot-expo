@@ -6,7 +6,7 @@
 (defonce Expo (js/require "expo"))
 (defonce React (js/require "react"))
 (defonce ReactNative (js/require "react-native"))
-
+(def foo (js/require "react-native-contacts-wrapper"))
 
 (js/setCLJSRootElement (React.createElement
                         ReactNative.View
